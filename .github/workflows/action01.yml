@@ -1,0 +1,12 @@
+name: action01
+
+on:
+  schedule:
+    - cron : 0 0 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action
+        run: curl http://35.196.235.103/api/buildskuhome?domain=petropolis
