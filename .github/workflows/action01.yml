@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action
-        run: curl http://35.196.235.103/api/buildskuhome?domain=petropolis
+        run: |
+          curl https://xp.nodis.com.br/same_day_api/api/buildskuhome?domain=petropolis
+          curl https://xp.nodis.com.br/same_day_api/api/buildskuhome?domain=novafriburgo
