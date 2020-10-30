@@ -12,3 +12,6 @@ jobs:
         run: |
           curl https://xp.nodis.com.br/same_day_api/api/buildskuhome?domain=petropolis
           curl https://xp.nodis.com.br/same_day_api/api/buildskuhome?domain=novafriburgo
+          curl https://xp.nodis.com.br/same_day_api/api/buildskuxmlseller?domain=petropolis&sellerid=5d7f9a047036f903c340e661
+          curl https://xp.nodis.com.br/same_day_api/api/buildskuxml?domain=petropolis
+          curl https://xp.nodis.com.br/same_day_api/api/buildskuxml?domain=novafriburgo
